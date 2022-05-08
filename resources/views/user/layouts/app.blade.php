@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
 
-    <title>Beranda | Rumah Penggerak</title>
+    <title>Beranda | Jelajah</title>
     @stack('styles')
   </head>
   <body>

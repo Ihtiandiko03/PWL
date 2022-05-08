@@ -12,10 +12,10 @@
                                 class="bi bi-search"></i></button>
                     </form>
                     <br><br><br><br><br><br>
-                    <div class="titlepage">
+                    <div class="titlepage" style="margin-left: 30%;">
                         <h1>PROJEK</h1>
                         <h1 class="fw-bold">{{ $proyek_terakhir->nama }}</h1>
-                        <a href="{{ route('proyek.show', $proyek_terakhir->id) }}">
+                        <a href="{{ route('proyek.show', $proyek_terakhir->id) }}" style="text-decoration: none">
                             <h5>Lihat Projek</h5>
                         </a>
 

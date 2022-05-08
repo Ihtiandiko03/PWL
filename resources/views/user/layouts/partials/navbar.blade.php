@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-left: 4%">
         <nav class="navbar bg-white">
             <div class="container">
               <a class="navbar-brand" href="{{ route('home') }}">
-                <img src="{{ asset('frontend/img/logo.png') }}" alt="logo image" width="250">
+                <img src="{{ asset('frontend/img/logoweb.png') }}" alt="logo image" width="120">
               </a>
             </div>
           </nav>

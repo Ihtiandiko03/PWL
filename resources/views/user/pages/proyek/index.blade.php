@@ -28,6 +28,29 @@
                 </div>
                 <br>
                @endforeach
+
+                {{-- <table class="table table-striped" style="width: 100%;">
+                @foreach ($data_proyek as $proyek)
+                <tr>
+                    <th scope="row" style="font-size:36px; padding-top:3%; padding-left:1%">{{ $loop->iteration }}</th>
+                    <td style="padding-top: 1.5%;"><img src="{{ $proyek->gambar() }}" class="gambarlistproyek" alt="{{ $proyek->nama }}" style="max-width: 200px; border-radius:2%"></td>
+                    <td> <h5 class="card-title">{{ $proyek->nama }}</h5>
+                    <p style="font-size: 16px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                        {{ $proyek->deskripsi_singkat }}
+                        <a href="{{ route('proyek.show',$proyek->id) }}" class="text-decoration-none">Read More...</a>
+                    </p>
+                    </td>
+                </tr>
+                @endforeach
+                </table> --}}
+
+
+
+
+
+
+
+
             </section>
             <div class="text-center justify-content-center">
                 {{ $data_proyek->links() }}

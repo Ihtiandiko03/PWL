@@ -29,7 +29,6 @@
               <div class="social-links">
                 <a href="{{ $pengaturan->link_facebook }}" target="_blank"><i class="bi bi-facebook"></i></a>
                 <a href="{{ $pengaturan->link_twitter }}" target="_blank"><i class="bi bi-twitter"></i></a>
-                <a href="{{ $pengaturan->link_path }}" target="_blank"><i class="bi bi-pinterest"></i></a>
                 <a href="{{ $pengaturan->link_linkedin }}" target="_blank"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
